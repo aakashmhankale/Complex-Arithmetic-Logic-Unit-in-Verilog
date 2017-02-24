@@ -1,0 +1,69 @@
+# Reading C:/modeltech_10.3c/tcl/vsim/pref.tcl
+# //  ModelSim SE 10.3c Jul 19 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do TopLeveltest11.ldo
+# Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+# Start time: 21:12:06 on Dec 04,2015
+# vlog -reportprogress 300 alu.v 
+# -- Compiling module TopLeveltest11
+# -- Compiling module mux
+# -- Compiling module copyR1
+# -- Compiling module complement
+# -- Compiling module AndR1R2
+# -- Compiling module OrR1R2
+# -- Compiling module XorR1R2
+# -- Compiling module cla_8Bit
+# -- Compiling module CLA_4bit
+# -- Compiling module multiplier
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	TopLeveltest11
+# End time: 21:12:07 on Dec 04,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+# Start time: 21:12:07 on Dec 04,2015
+# vlog -reportprogress 300 C:/XilinxISE6/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 21:12:07 on Dec 04,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -gui -do "TopLeveltest11.ldo" 
+# Start time: 21:12:07 on Dec 04,2015
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading work.TopLeveltest11
+# Loading work.copyR1
+# Loading work.complement
+# Loading work.AndR1R2
+# Loading work.OrR1R2
+# Loading work.XorR1R2
+# Loading work.cla_8Bit
+# Loading work.CLA_4bit
+# Loading work.multiplier
+# Loading work.alu
+# Loading work.mux
+# Loading work.glbl
+# ** Warning: (vsim-3015) alu.v(13): [PCDPC] - Port size (16) does not match connection size (8) for port 'Sum'. The port definition is at: alu.v(78).
+# 
+#         Region: /TopLeveltest11/Add_CLA
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+force -freeze sim:/TopLeveltest11/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/TopLeveltest11/R1 11111111 0
+force -freeze sim:/TopLeveltest11/R2 11110000 0
+force -freeze sim:/TopLeveltest11/sel 101 0
+run
+force -freeze sim:/TopLeveltest11/clk 1 0, 0 {50 ps} -r 100
+# End time: 23:10:26 on Dec 04,2015, Elapsed time: 1:58:19
+# Errors: 0, Warnings: 2

@@ -1,0 +1,246 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.36 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.36 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: alu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : alu.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : alu
+Output Format                      : NGC
+Target Device                      : xc3s50-4-pq208
+
+---- Source Options
+Top Module Name                    : alu
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : alu.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <alu.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <alu>.
+Module <alu> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+  8-bit adder carry in             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <alu> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block alu, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : alu.ngr
+Top Level Output File Name         : alu
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 25
+
+Macro Statistics :
+# Adders/Subtractors               : 1
+#      8-bit adder carry in        : 1
+
+Cell Usage :
+# BELS                             : 23
+#      LUT2                        : 8
+#      MUXCY                       : 7
+#      XORCY                       : 8
+# IO Buffers                       : 25
+#      IBUF                        : 17
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       4  out of    768     0%  
+ Number of 4 input LUTs:                 8  out of   1536     0%  
+ Number of bonded IOBs:                 25  out of    124    20%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 10.215ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               10.215ns (Levels of Logic = 11)
+  Source:            b<0> (PAD)
+  Destination:       out<7> (PAD)
+
+  Data Path: b<0> to out<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.492   0.240  b_0_IBUF (b_0_IBUF)
+     LUT2:I0->O            1   0.720   0.000  Madd_out_inst_lut2_01 (Madd_out_inst_lut2_0)
+     MUXCY:S->O            1   0.629   0.000  Madd_out_inst_cy_0 (Madd_out_inst_cy_0)
+     MUXCY:CI->O           1   0.090   0.000  Madd_out_inst_cy_1 (Madd_out_inst_cy_1)
+     MUXCY:CI->O           1   0.090   0.000  Madd_out_inst_cy_2 (Madd_out_inst_cy_2)
+     MUXCY:CI->O           1   0.090   0.000  Madd_out_inst_cy_3 (Madd_out_inst_cy_3)
+     MUXCY:CI->O           1   0.090   0.000  Madd_out_inst_cy_4 (Madd_out_inst_cy_4)
+     MUXCY:CI->O           1   0.090   0.000  Madd_out_inst_cy_5 (Madd_out_inst_cy_5)
+     MUXCY:CI->O           0   0.090   0.000  Madd_out_inst_cy_6 (Madd_out_inst_cy_6)
+     XORCY:CI->O           1   0.939   0.240  Madd_out_inst_sum_7 (out_7_OBUF)
+     OBUF:I->O                 5.412          out_7_OBUF (out<7>)
+    ----------------------------------------
+    Total                     10.215ns (9.735ns logic, 0.480ns route)
+                                       (95.3% logic, 4.7% route)
+
+=========================================================================
+CPU : 1.69 / 2.19 s | Elapsed : 1.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 73956 kilobytes
+
+

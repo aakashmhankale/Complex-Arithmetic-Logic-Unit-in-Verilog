@@ -1,0 +1,21 @@
+# Xilinx CORE Generator 6.1.03i
+# User = 803000470
+Initializing default project...
+Loading plug-ins...
+All runtime messages will be recorded in C:\XilinxISE6\bin\ALU\coregen.log
+# busformat=BusFormatAngleBracketNotRipped
+# designflow=VHDL
+# expandedprojectpath=C:\XilinxISE6\bin\ALU
+# flowvendor=Foundation_iSE
+# formalverification=None
+# simulationoutputproducts=VHDL
+# xilinxfamily=Virtex2
+# outputoption=DesignFlow
+# overwritefiles=Default
+# simvendor=ModelSim
+# expandedprojectpath=C:\XilinxISE6\bin\ALU
+SETPROJECT .
+Set current Project to C:\XilinxISE6\bin\ALU
+SET BusFormat = BusFormatAngleBracketNotRipped
+SETXIPCPORTHOST 49577
+XIPCPJSENDCORES spartan3

@@ -1,0 +1,13 @@
+[Inputs]
+clk
+=R1[7:0]=
+=R2[7:0]=
+=sel[2:0]=
+[Outputs]
+Done
+busy
+=out[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel TopLeveltest11
+

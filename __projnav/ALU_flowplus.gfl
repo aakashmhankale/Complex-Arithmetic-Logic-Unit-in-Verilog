@@ -1,0 +1,164 @@
+# XST flow : Creating project file
+alu.prj
+# xst flow : RunXST
+alu.prj
+__projnav/alu.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : Check Syntax
+TopLeveltest11.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/TopLeveltest11.xst
+xst
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# xst flow : Check Syntax
+TopLeveltest11.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/TopLeveltest11.xst
+xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# xst flow : Check Syntax
+TopLeveltest11.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/TopLeveltest11.xst
+xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# xst flow : Check Syntax
+TopLeveltest11.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/TopLeveltest11.xst
+xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst
+# XST flow : Creating project file
+TopLeveltest11.prj
+# xst flow : RunXST
+TopLeveltest11.prj
+__projnav/TopLeveltest11.xst
+./xst

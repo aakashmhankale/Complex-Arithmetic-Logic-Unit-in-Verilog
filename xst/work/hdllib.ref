@@ -1,0 +1,11 @@
+MO copyR1 NULL alu.v vlg4A/copyR1.bin
+MO AndR1R2 NULL alu.v vlg52/AndR1R2.bin
+MO OrR1R2 NULL alu.v vlg4C/OrR1R2.bin
+MO multiplier NULL alu.v vlg7B/multiplier.bin
+MO cla_8Bit NULL alu.v vlg02/cla_8Bit.bin
+MO TopLeveltest11 NULL alu.v vlg75/TopLeveltest11.bin
+MO XorR1R2 NULL alu.v vlg04/XorR1R2.bin
+MO complement NULL alu.v vlg58/complement.bin
+MO CLA_4bit NULL alu.v vlg4E/CLA_4bit.bin
+MO mux NULL alu.v vlg66/mux.bin
+MO alu NULL alu.v vlg0A/alu.bin

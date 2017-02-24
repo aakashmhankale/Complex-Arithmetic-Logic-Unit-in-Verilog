@@ -1,0 +1,10 @@
+[Inputs]
+cin
+=a[7:0]=
+=b[7:0]=
+[Outputs]
+=out[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel alu
+

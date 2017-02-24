@@ -1,0 +1,4882 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <alu.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <alu>.
+Module <alu> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+  8-bit adder carry in             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <alu> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block alu, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                       4  out of    768     0%  
+ Number of 4 input LUTs:                 8  out of   1536     0%  
+ Number of bonded IOBs:                 25  out of    124    20%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 10.215ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:259 - alu.v line 13 Connection to input port 'Cin' does not match port size
+WARNING:HDLCompilers:259 - alu.v line 14 Connection to input port 'Cin' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 75.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+  8-bit register                   : 3
+  1-bit register                   : 2
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:528 - Multi-source in Unit <TopLeveltest11> on signal <N362> not replaced by logic
+Signal is stuck at GND
+ERROR:Xst:415 - Synthesis failed
+CPU : 1.96 / 2.24 s | Elapsed : 2.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 67172 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+ERROR:HDLCompilers:208 - alu.v line 1 Port reference 'busy' was not declared as input, inout or output
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+Analysis of file <TopLeveltest11.prj> failed.
+--> 
+
+Total memory usage is 59172 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:259 - alu.v line 14 Connection to input port 'Cin' does not match port size
+WARNING:HDLCompilers:259 - alu.v line 15 Connection to input port 'Cin' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 76.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 4
+  8-bit register                   : 3
+  1-bit register                   : 1
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:528 - Multi-source in Unit <TopLeveltest11> on signal <N361> not replaced by logic
+Signal is stuck at GND
+ERROR:Xst:415 - Synthesis failed
+CPU : 1.38 / 1.66 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 67748 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 76.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 4
+  8-bit register                   : 3
+  1-bit register                   : 1
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:528 - Multi-source in Unit <TopLeveltest11> on signal <N361> not replaced by logic
+Signal is stuck at GND
+ERROR:Xst:415 - Synthesis failed
+CPU : 1.41 / 1.70 s | Elapsed : 1.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 67428 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 76.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 4
+  8-bit register                   : 3
+  1-bit register                   : 1
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:528 - Multi-source in Unit <TopLeveltest11> on signal <N361> not replaced by logic
+Signal is stuck at GND
+ERROR:Xst:415 - Synthesis failed
+CPU : 1.48 / 1.76 s | Elapsed : 1.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 67940 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 76.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 4
+  8-bit register                   : 3
+  1-bit register                   : 1
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:528 - Multi-source in Unit <TopLeveltest11> on signal <N361> not replaced by logic
+Signal is stuck at GND
+ERROR:Xst:415 - Synthesis failed
+CPU : 1.52 / 1.81 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 67876 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 76.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 4
+  8-bit register                   : 3
+  1-bit register                   : 1
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:528 - Multi-source in Unit <TopLeveltest11> on signal <N361> not replaced by logic
+Signal is stuck at GND
+ERROR:Xst:415 - Synthesis failed
+CPU : 1.74 / 2.06 s | Elapsed : 2.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 67684 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+ERROR:HDLCompilers:120 - alu.v line 109 Illegal redeclaration of input 'start' as a reg
+Module <multiplier> compiled
+Module <alu> compiled
+Analysis of file <TopLeveltest11.prj> failed.
+--> 
+
+Total memory usage is 58660 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+ERROR:HDLCompilers:207 - alu.v line 108 Signal 'start' is not referenced in the module port list
+Module <multiplier> compiled
+Module <alu> compiled
+Analysis of file <TopLeveltest11.prj> failed.
+--> 
+
+Total memory usage is 59172 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:92 - alu.v line 15 Too many port connections in instance 'MR1R2' of module 'multiplier'
+--> 
+
+Total memory usage is 58724 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <TopLeveltest11>.
+ERROR:Xst:872 - alu.v line 14: Unsupported  target. 
+ 
+ 
+Found 1 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 58788 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 75.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+  8-bit register                   : 3
+  1-bit register                   : 2
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:528 - Multi-source in Unit <TopLeveltest11> on signal <N362> not replaced by logic
+Signal is stuck at GND
+ERROR:Xst:415 - Synthesis failed
+CPU : 1.38 / 1.67 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 67940 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - alu.v line 13 Connection to output port 'Sum' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 75.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+WARNING:Xst:653 - Signal <outAdd<15:9>> is used but never assigned. Tied to value 0000000.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+  8-bit register                   : 3
+  1-bit register                   : 2
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+
+Optimizing unit <TopLeveltest11> ...
+
+Optimizing unit <AndR1R2> ...
+
+Optimizing unit <OrR1R2> ...
+
+Optimizing unit <CLA_4bit> ...
+
+Optimizing unit <multiplier> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Register MR1R2_A_6 equivalent to MR1R2_A_7 has been removed
+Found area constraint ratio of 100 (+ 5) on block TopLeveltest11, actual ratio is 11.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                      62  out of    768     8%  
+ Number of Slice Flip Flops:            29  out of   1536     1%  
+ Number of 4 input LUTs:               109  out of   1536     7%  
+ Number of bonded IOBs:                 36  out of    124    29%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 29    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.501ns (Maximum Frequency: 153.823MHz)
+   Minimum input arrival time before clock: 4.303ns
+   Maximum output required time after clock: 8.972ns
+   Maximum combinational path delay: 17.323ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - alu.v line 14 Connection to output port 'Sum' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 76.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 5
+  8-bit register                   : 3
+  1-bit register                   : 2
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+
+Optimizing unit <TopLeveltest11> ...
+
+Optimizing unit <AndR1R2> ...
+
+Optimizing unit <OrR1R2> ...
+
+Optimizing unit <CLA_4bit> ...
+
+Optimizing unit <multiplier> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Register MR1R2_A_6 equivalent to MR1R2_A_7 has been removed
+Found area constraint ratio of 100 (+ 5) on block TopLeveltest11, actual ratio is 11.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                      62  out of    768     8%  
+ Number of Slice Flip Flops:            29  out of   1536     1%  
+ Number of 4 input LUTs:               109  out of   1536     7%  
+ Number of bonded IOBs:                 36  out of    124    29%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 29    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.501ns (Maximum Frequency: 153.823MHz)
+   Minimum input arrival time before clock: 4.303ns
+   Maximum output required time after clock: 8.972ns
+   Maximum combinational path delay: 17.323ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - alu.v line 15 Connection to output port 'Sum' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 84.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+WARNING:Xst:1305 - Output <Done> is never assigned. Tied to value 0.
+    Found 16-bit register for signal <outR1>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 6
+  8-bit register                   : 3
+  1-bit register                   : 2
+  16-bit register                  : 1
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <outR1_15> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_8> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_9> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_10> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_11> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_12> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_13> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_14> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+
+Optimizing unit <TopLeveltest11> ...
+
+Optimizing unit <AndR1R2> ...
+
+Optimizing unit <OrR1R2> ...
+
+Optimizing unit <CLA_4bit> ...
+
+Optimizing unit <multiplier> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Register MR1R2_A_6 equivalent to MR1R2_A_7 has been removed
+Found area constraint ratio of 100 (+ 5) on block TopLeveltest11, actual ratio is 11.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                      62  out of    768     8%  
+ Number of Slice Flip Flops:            37  out of   1536     2%  
+ Number of 4 input LUTs:               109  out of   1536     7%  
+ Number of bonded IOBs:                 37  out of    124    29%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 37    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.501ns (Maximum Frequency: 153.823MHz)
+   Minimum input arrival time before clock: 4.303ns
+   Maximum output required time after clock: 8.972ns
+   Maximum combinational path delay: 17.352ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - alu.v line 15 Connection to output port 'Sum' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 85.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+    Found 16-bit register for signal <outR1>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 6
+  8-bit register                   : 3
+  1-bit register                   : 2
+  16-bit register                  : 1
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <outR1_15> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_8> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_9> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_10> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_11> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_12> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_13> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_14> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+
+Optimizing unit <TopLeveltest11> ...
+
+Optimizing unit <AndR1R2> ...
+
+Optimizing unit <OrR1R2> ...
+
+Optimizing unit <CLA_4bit> ...
+
+Optimizing unit <multiplier> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Register MR1R2_A_6 equivalent to MR1R2_A_7 has been removed
+Found area constraint ratio of 100 (+ 5) on block TopLeveltest11, actual ratio is 11.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                      62  out of    768     8%  
+ Number of Slice Flip Flops:            37  out of   1536     2%  
+ Number of 4 input LUTs:               109  out of   1536     7%  
+ Number of bonded IOBs:                 37  out of    124    29%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 37    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.501ns (Maximum Frequency: 153.823MHz)
+   Minimum input arrival time before clock: 4.303ns
+   Maximum output required time after clock: 8.972ns
+   Maximum combinational path delay: 17.352ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - alu.v line 15 Connection to output port 'Sum' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 93.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+    Register <outcomp<2>> equivalent to <outcomp<1>> has been removed
+    Found 5-bit register for signal <outcomp<7:3>>.
+    Found 2-bit register for signal <outcomp<1:0>>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+    Found 16-bit register for signal <outR1>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 13
+  8-bit register                   : 3
+  1-bit register                   : 9
+  16-bit register                  : 1
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <outR1_15> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_8> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_9> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_10> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_11> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_12> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_13> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_14> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+
+Optimizing unit <TopLeveltest11> ...
+
+Optimizing unit <AndR1R2> ...
+
+Optimizing unit <OrR1R2> ...
+
+Optimizing unit <CLA_4bit> ...
+
+Optimizing unit <multiplier> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Register MR1R2_A_6 equivalent to MR1R2_A_7 has been removed
+Found area constraint ratio of 100 (+ 5) on block TopLeveltest11, actual ratio is 12.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                      69  out of    768     8%  
+ Number of Slice Flip Flops:            44  out of   1536     2%  
+ Number of 4 input LUTs:               109  out of   1536     7%  
+ Number of bonded IOBs:                 37  out of    124    29%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 44    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.501ns (Maximum Frequency: 153.823MHz)
+   Minimum input arrival time before clock: 4.303ns
+   Maximum output required time after clock: 8.972ns
+   Maximum combinational path delay: 17.352ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - alu.v line 15 Connection to output port 'Sum' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 103.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+    Found 16-bit register for signal <outand>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+    Register <outcomp<2>> equivalent to <outcomp<1>> has been removed
+    Found 5-bit register for signal <outcomp<7:3>>.
+    Found 2-bit register for signal <outcomp<1:0>>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+    Found 16-bit register for signal <outR1>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 14
+  8-bit register                   : 3
+  1-bit register                   : 9
+  16-bit register                  : 2
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <outR1_15> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_8> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_9> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_10> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_11> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_12> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_13> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_14> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outand_15> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_8> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_9> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_10> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_11> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_12> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_13> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_14> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:528 - Multi-source in Unit <TopLeveltest11> on signal <N387> not replaced by logic
+Signal is stuck at VCC
+ERROR:Xst:415 - Synthesis failed
+CPU : 1.45 / 1.74 s | Elapsed : 1.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 67748 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - alu.v line 15 Connection to output port 'Sum' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 94.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+    Register <outcomp<2>> equivalent to <outcomp<1>> has been removed
+    Found 5-bit register for signal <outcomp<7:3>>.
+    Found 2-bit register for signal <outcomp<1:0>>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+    Found 16-bit register for signal <outR1>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 13
+  8-bit register                   : 3
+  1-bit register                   : 9
+  16-bit register                  : 1
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <outR1_15> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_8> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_9> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_10> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_11> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_12> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_13> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_14> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+
+Optimizing unit <TopLeveltest11> ...
+
+Optimizing unit <AndR1R2> ...
+
+Optimizing unit <OrR1R2> ...
+
+Optimizing unit <CLA_4bit> ...
+
+Optimizing unit <multiplier> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Register MR1R2_A_6 equivalent to MR1R2_A_7 has been removed
+Found area constraint ratio of 100 (+ 5) on block TopLeveltest11, actual ratio is 12.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                      69  out of    768     8%  
+ Number of Slice Flip Flops:            44  out of   1536     2%  
+ Number of 4 input LUTs:               109  out of   1536     7%  
+ Number of bonded IOBs:                 37  out of    124    29%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 44    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.501ns (Maximum Frequency: 153.823MHz)
+   Minimum input arrival time before clock: 4.303ns
+   Maximum output required time after clock: 8.972ns
+   Maximum combinational path delay: 17.352ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - alu.v line 15 Connection to output port 'Sum' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 102.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+    Found 16-bit register for signal <outand>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+    Register <outcomp<2>> equivalent to <outcomp<1>> has been removed
+    Found 5-bit register for signal <outcomp<7:3>>.
+    Found 2-bit register for signal <outcomp<1:0>>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+    Found 16-bit register for signal <outR1>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 14
+  8-bit register                   : 3
+  1-bit register                   : 9
+  16-bit register                  : 2
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <outR1_15> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_8> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_9> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_10> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_11> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_12> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_13> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_14> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outand_15> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_8> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_9> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_10> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_11> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_12> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_13> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1710 - FF/Latch  <outand_14> (without init value) is constant in block <AndR1R2>.
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:528 - Multi-source in Unit <TopLeveltest11> on signal <N387> not replaced by logic
+Signal is stuck at VCC
+ERROR:Xst:415 - Synthesis failed
+CPU : 1.48 / 1.76 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 67940 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View VHDL Instantiation Template".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+Completed process "View VHDL Instantiation Template".
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:93 - alu.v line 12 Too few port connections in instance 'R12' of module 'AndR1R2'
+WARNING:HDLCompilers:261 - alu.v line 12 Connection to output port 'Done' does not match port size
+WARNING:HDLCompilers:261 - alu.v line 15 Connection to output port 'Sum' does not match port size
+Analyzing top module <TopLeveltest11>.
+ERROR:Xst:871 - alu.v line 12: Invalid use of input signal <R1> as target.
+WARNING:Xst:852 - alu.v line 12: Unconnected input port 'R2' of instance 'R12' is tied to GND.
+WARNING:Xst:852 - alu.v line 12: Unconnected input port 'clk' of instance 'R12' is tied to GND.
+ 
+ 
+Found 1 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 58596 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - alu.v line 15 Connection to output port 'Sum' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 94.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+    Register <outcomp<2>> equivalent to <outcomp<1>> has been removed
+    Found 5-bit register for signal <outcomp<7:3>>.
+    Found 2-bit register for signal <outcomp<1:0>>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+    Found 16-bit register for signal <outR1>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 13
+  8-bit register                   : 3
+  1-bit register                   : 9
+  16-bit register                  : 1
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <outR1_15> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_8> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_9> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_10> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_11> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_12> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_13> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_14> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+
+Optimizing unit <TopLeveltest11> ...
+
+Optimizing unit <AndR1R2> ...
+
+Optimizing unit <OrR1R2> ...
+
+Optimizing unit <CLA_4bit> ...
+
+Optimizing unit <multiplier> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Register MR1R2_A_6 equivalent to MR1R2_A_7 has been removed
+Found area constraint ratio of 100 (+ 5) on block TopLeveltest11, actual ratio is 12.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                      69  out of    768     8%  
+ Number of Slice Flip Flops:            44  out of   1536     2%  
+ Number of 4 input LUTs:               109  out of   1536     7%  
+ Number of bonded IOBs:                 37  out of    124    29%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 44    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.501ns (Maximum Frequency: 153.823MHz)
+   Minimum input arrival time before clock: 4.303ns
+   Maximum output required time after clock: 8.972ns
+   Maximum combinational path delay: 17.352ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Create Schematic Symbol".
+
+Compiling source file "alu.v"
+tdtfi(verilog) completed successfully.
+
+
+Release 6.1.03i - spl2sym G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+Completed process "Create Schematic Symbol".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "alu.v"
+Module <TopLeveltest11> compiled
+Module <mux> compiled
+Module <copyR1> compiled
+Module <complement> compiled
+Module <AndR1R2> compiled
+Module <OrR1R2> compiled
+Module <XorR1R2> compiled
+Module <cla_8Bit> compiled
+Module <CLA_4bit> compiled
+Module <multiplier> compiled
+Module <alu> compiled
+No errors in compilation
+Analysis of file <TopLeveltest11.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - alu.v line 15 Connection to output port 'Sum' does not match port size
+Analyzing top module <TopLeveltest11>.
+Module <TopLeveltest11> is correct for synthesis.
+ 
+Analyzing module <copyR1>.
+Module <copyR1> is correct for synthesis.
+ 
+Analyzing module <complement>.
+Module <complement> is correct for synthesis.
+ 
+Analyzing module <AndR1R2>.
+Module <AndR1R2> is correct for synthesis.
+ 
+Analyzing module <OrR1R2>.
+Module <OrR1R2> is correct for synthesis.
+ 
+Analyzing module <XorR1R2>.
+Module <XorR1R2> is correct for synthesis.
+ 
+Analyzing module <cla_8Bit>.
+Module <cla_8Bit> is correct for synthesis.
+ 
+Analyzing module <CLA_4bit>.
+Module <CLA_4bit> is correct for synthesis.
+ 
+Analyzing module <multiplier>.
+Module <multiplier> is correct for synthesis.
+ 
+Analyzing module <alu>.
+Module <alu> is correct for synthesis.
+ 
+Analyzing module <mux>.
+Module <mux> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+WARNING:Xst:1851 - Detected name conflict between bus <Q> and signal <Q_1> (renamed to <Q_1_ren>).
+
+Synthesizing Unit <alu>.
+    Related source file is alu.v.
+    Found 8-bit adder carry in for signal <out>.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <CLA_4bit>.
+    Related source file is alu.v.
+    Found 4-bit xor2 for signal <S>.
+    Found 4-bit xor2 for signal <P>.
+Unit <CLA_4bit> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is alu.v.
+    Found 16-bit 8-to-1 multiplexer for signal <y1>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is alu.v.
+    Found 4-bit comparator less for signal <busy>.
+    Found 8-bit register for signal <A>.
+    Found 4-bit up counter for signal <count>.
+    Found 8-bit register for signal <M>.
+    Found 8-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_1_ren>.
+    Found 1-bit register for signal <start>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <cla_8Bit>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <B_test>.
+Unit <cla_8Bit> synthesized.
+
+
+Synthesizing Unit <XorR1R2>.
+    Related source file is alu.v.
+    Found 8-bit xor2 for signal <$n0000> created at line 94.
+Unit <XorR1R2> synthesized.
+
+
+Synthesizing Unit <OrR1R2>.
+    Related source file is alu.v.
+Unit <OrR1R2> synthesized.
+
+
+Synthesizing Unit <AndR1R2>.
+    Related source file is alu.v.
+Unit <AndR1R2> synthesized.
+
+
+Synthesizing Unit <complement>.
+    Related source file is alu.v.
+WARNING:Xst:647 - Input <R1<1>> is never used.
+    Register <outcomp<2>> equivalent to <outcomp<1>> has been removed
+    Found 5-bit register for signal <outcomp<7:3>>.
+    Found 2-bit register for signal <outcomp<1:0>>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <complement> synthesized.
+
+
+Synthesizing Unit <copyR1>.
+    Related source file is alu.v.
+    Found 16-bit register for signal <outR1>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <copyR1> synthesized.
+
+
+Synthesizing Unit <TopLeveltest11>.
+    Related source file is alu.v.
+Unit <TopLeveltest11> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 13
+  8-bit register                   : 3
+  1-bit register                   : 9
+  16-bit register                  : 1
+# Counters                         : 1
+  4-bit up counter                 : 1
+# Multiplexers                     : 2
+  2-to-1 multiplexer               : 1
+  16-bit 8-to-1 multiplexer        : 1
+# Adders/Subtractors               : 2
+  8-bit adder carry in             : 2
+# Comparators                      : 1
+  4-bit comparator less            : 1
+# Xors                             : 11
+  4-bit xor2                       : 8
+  8-bit xor2                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <outR1_15> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_8> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_9> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_10> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_11> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_12> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_13> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1710 - FF/Latch  <outR1_14> (without init value) is constant in block <copyR1>.
+WARNING:Xst:1426 - The value init of the FF/Latch start hinder the constant cleaning in the block multiplier.
+   You should achieve better results by setting this init to 0.
+
+Optimizing unit <TopLeveltest11> ...
+
+Optimizing unit <AndR1R2> ...
+
+Optimizing unit <OrR1R2> ...
+
+Optimizing unit <CLA_4bit> ...
+
+Optimizing unit <multiplier> ...
+Loading device for application Xst from file '3s50.nph' in environment C:/XilinxISE6.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Register MR1R2_A_6 equivalent to MR1R2_A_7 has been removed
+Found area constraint ratio of 100 (+ 5) on block TopLeveltest11, actual ratio is 12.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-4 
+
+ Number of Slices:                      69  out of    768     8%  
+ Number of Slice Flip Flops:            44  out of   1536     2%  
+ Number of 4 input LUTs:               109  out of   1536     7%  
+ Number of bonded IOBs:                 37  out of    124    29%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 44    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.501ns (Maximum Frequency: 153.823MHz)
+   Minimum input arrival time before clock: 4.303ns
+   Maximum output required time after clock: 8.972ns
+   Maximum combinational path delay: 17.352ns
+
+=========================================================================
+Completed process "Synthesize".
+
+

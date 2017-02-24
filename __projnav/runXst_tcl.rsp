@@ -1,0 +1,1 @@
+set allSynthModules {copyR1.MOD complement.MOD AndR1R2.MOD OrR1R2.MOD XorR1R2.MOD CLA_4bit.MOD cla_8Bit.MOD alu.MOD multiplier.MOD mux.MOD TopLeveltest11.MOD}
